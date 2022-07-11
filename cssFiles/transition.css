@@ -1,0 +1,24 @@
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+  transform: translateX(0); /*by default content doesn't move anywhere */
+  transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%); /* starts all the way on right */
+}
+html.is-leaving .transition-fade {
+  opacity: 0; /*when content leaves it becomes invisible */
+  transform: translateX(0);
+}
+
+.transition-swipe {
+  transition: 750ms;
+  transform: translateY(0);
+}
+
+html.is-animating .transition-swipe {
+  transform: translateY(100%);
+}

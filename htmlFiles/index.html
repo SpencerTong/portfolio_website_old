@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../cssFiles/hero.css" />
+    <link href="../cssFiles/transition.css" rel="stylesheet" />
+    <title>Spencer's Portfolio!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Esteban&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="../node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="../scriptsFiles/hero.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <a class="home-btn nav-link" href="/htmlFiles/index.html" target="_self"
+          >Home</a
+        >
+        <a
+          class="about-btn nav-link"
+          href="/htmlFiles/about.html"
+          target="_self"
+          >About</a
+        >
+        <a
+          class="experience-btn nav-link"
+          href="/htmlFiles/experience.html"
+          target="_self"
+          >Experience</a
+        >
+        <a
+          class="contact-btn nav-link"
+          href="/htmlFiles/contact.html"
+          target="_self"
+          >Contact</a
+        >
+      </nav>
+    </header>
+
+    <main id="swup" class="transition-fade">
+      <div class="intro-msg">
+        <h1 class="hero-title">Welcome To My Portfolio.</h1>
+        <p class="hero-sub">
+          I'm Spencer, an aspiring software and front-end developer.
+        </p>
+        <img
+          class="computer transition-swipe"
+          src="../images/pixelComputer.png"
+          alt="Pixel Computer"
+        />
+        <img
+          class="self-port transition-swipe"
+          src="../images/pixelPotrait.png"
+          alt="Pixel Self-Potrait"
+        />
+      </div>
+    </main>
+  </body>
+</html>
