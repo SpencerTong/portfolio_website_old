@@ -27,7 +27,6 @@ html {
 
 .nav-link {
   padding: 8px;
-  border-radius: 35%;
 }
 
 .nav-link:link,
@@ -38,16 +37,10 @@ html {
 
 .nav-link:hover,
 .nav-link:active {
-  text-decoration: none;
-  color: #495057;
-  cursor: pointer;
-  background: #d0ebff;
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 1s ease;
+  animation: underline_fade_in linear 1 normal forwards;;
 }
 
-.container {
+.main_container {
   display: flex;
   margin-top: 80px;
   justify-content: center;
@@ -79,3 +72,18 @@ html {
   flex: 0 0 auto;
   font-weight: 500;
 }
+
+
+@keyframes underline_fade_in {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, rgba(145, 252, 243, 0.8) 50%);
+  }
+
+}
+
+
