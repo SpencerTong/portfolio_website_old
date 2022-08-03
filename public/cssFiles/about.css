@@ -13,8 +13,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-bar {
@@ -38,22 +37,23 @@ html {
 
 .nav-link:hover,
 .nav-link:active {
-  animation: underline_fade_in linear 1 normal forwards;;
+  animation: underline_fade_in linear 1 normal forwards;
 }
 
 .main_container {
   display: flex;
   margin-top: 80px;
   justify-content: center;
+  align-items: center;
 }
 
 .bio {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  margin-top: 48px;
   margin-right: 200px;
   width: 30%;
+  top: 0;
 }
 
 .portrait {
@@ -64,6 +64,7 @@ html {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
   margin-right: 2vw;
   flex: 0 0 auto;
+  top: 0;
 }
 
 .opener {
@@ -74,7 +75,6 @@ html {
   font-weight: 500;
 }
 
-
 @keyframes underline_fade_in {
   from {
     opacity: 1;
@@ -82,9 +82,10 @@ html {
 
   to {
     opacity: 1;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #4ee0554f 50%);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 50%,
+      #4ee0554f 50%
+    );
   }
-
 }
-
-
