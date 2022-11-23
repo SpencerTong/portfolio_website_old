@@ -48,6 +48,15 @@ a {
   width: 60%;
 }
 
+.linked-in {
+  margin-right: 5%;
+  color: #106025f1;
+}
+
+.github {
+  color: #106025f1;
+}
+
 form {
   font-family: "Poppins", sans-serif;
   background: #fff;
