@@ -1,9 +1,9 @@
 html {
-  font-family: 'Poppins', sans-serif;
-  color: #495057;
-  background-image: linear-gradient(#a5d8ff, #fff);
+  font-family: "Poppins", sans-serif;
+  color: #285430;
+  background-image: linear-gradient(#E5D9B6, #A4BE7B);
   background-repeat: no-repeat;
-  height: 100%;
+  height: 110%;
 }
 
 .nav-bar {
@@ -22,7 +22,7 @@ html {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
-  color: #495057;
+  color: #285430;
 }
 
 .nav-link:hover,
@@ -30,17 +30,11 @@ html {
   animation: underline_fade_in linear 1 normal forwards;;
 }
 
-@keyframes underline_fade_in {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 1;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #4ee0554f 50%);
-  }
-
+.experience-btn {
+  font-weight: bold;
+  color: #153462!important;
 }
+
 
 
 .timeline {
@@ -107,4 +101,19 @@ color: #087f5b;
 
 .timeline_component_bottom {
   margin-bottom: 0;
+}
+
+@keyframes underline_fade_in {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 70%,
+      #4ee0554f 50%
+    );
+  }
 }

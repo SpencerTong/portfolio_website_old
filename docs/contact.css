@@ -1,10 +1,12 @@
 html {
   font-family: "Poppins", sans-serif;
-  color: #495057;
-  background-image: linear-gradient(#a5d8ff, #fff);
+  color: #285430;
+  background-image: linear-gradient(#E5D9B6, #A4BE7B);
   background-repeat: no-repeat;
   height: 100%;
 }
+
+
 
 a { 
   color: blue;
@@ -26,13 +28,19 @@ a {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
-  color: #495057;
+  color: #285430;
 }
 
 .nav-link:hover,
 .nav-link:active {
   animation: underline_fade_in linear 1 normal forwards;
 }
+
+.contact-btn {
+  font-weight: bold;
+  color: #153462!important;
+}
+
 
 .form-container {
   position: relative;
@@ -44,6 +52,7 @@ a {
 }
 
 .contact-form {
+  background-color: #e4e0d5e1;
   height: fit-content;
   width: 60%;
 }
@@ -92,6 +101,11 @@ input[type="submit"]:active {
   background-color: #45a049;
   cursor: pointer;
 }
+
+input[type="text"], input[type="email"], input[type="test"], textarea{
+  font-family: "Poppins", sans-serif;
+}
+
 
 .self-port-king {
   position: absolute;

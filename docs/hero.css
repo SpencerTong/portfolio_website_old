@@ -9,8 +9,8 @@
 
 html {
   font-family: "Poppins", sans-serif;
-  color: #495057;
-  background-image: linear-gradient(#a5d8ff, #fff);
+  color: #285430;
+  background-image: linear-gradient(#E5D9B6, #A4BE7B);
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -39,7 +39,7 @@ html {
   font-size: 74px;
   font-weight: 1000;
   padding-top: 10vh;
-  color: #087f5b;
+  color: #5F8D4E;
 }
 
 .hero-sub {
@@ -55,12 +55,17 @@ html {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
-  color: #495057;
+  color: #285430;
 }
 
 .nav-link:hover,
 .nav-link:active {
   animation: underline_fade_in linear 1 normal forwards;
+}
+
+.home-btn {
+  font-weight: bold;
+  color: #153462!important;
 }
 
 .computer {
@@ -108,7 +113,7 @@ html {
     opacity: 1;
     background: linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 70%,
       #4ee0554f 50%
     );
   }

@@ -8,8 +8,9 @@
 */
 
 html {
-  color: #495057;
-  background-image: linear-gradient(#a5d8ff, #fff);
+  height:100%;
+  color: #285430;
+  background-image: linear-gradient(#E5D9B6, #A4BE7B);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -32,7 +33,7 @@ html {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
-  color: #495057;
+  color: #285430;
 }
 
 .nav-link:hover,
@@ -58,17 +59,22 @@ html {
 
 .portrait {
   border-radius: 20%;
-  border: 2px solid #a5d8ff;
-  height: 60vh;
-  width: 25vw;
+  border: 2px solid #E5D9B6;
+  height: 53vh;
+  width: 20vw;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
   margin-right: 2vw;
   flex: 0 0 auto;
   top: 0;
 }
 
+.about-btn {
+  font-weight: bold;
+  color: #153462!important;
+}
+
 .opener {
-  color: #087f5b;
+  color: #5F8D4E;
   font-size: 24px;
   margin-bottom: 24px;
   flex: 0 0 auto;
@@ -84,7 +90,7 @@ html {
     opacity: 1;
     background: linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 70%,
       #4ee0554f 50%
     );
   }
