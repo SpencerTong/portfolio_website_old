@@ -3,7 +3,8 @@ html {
   color: #285430;
   background-image: linear-gradient(#E5D9B6, #A4BE7B);
   background-repeat: no-repeat;
-  height: 110%;
+  height: 100%;
+  background-attachment: fixed;
 }
 
 .nav-bar {

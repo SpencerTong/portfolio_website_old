@@ -10,7 +10,7 @@
 html {
   height:100%;
   color: #285430;
-  background-image: linear-gradient(#E5D9B6, #A4BE7B);
+  background: linear-gradient(#E5D9B6, #A4BE7B);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -61,7 +61,7 @@ html {
   border-radius: 20%;
   border: 2px solid #E5D9B6;
   height: 53vh;
-  width: 20vw;
+  width: 25vw;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
   margin-right: 2vw;
   flex: 0 0 auto;
