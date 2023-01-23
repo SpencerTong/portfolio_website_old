@@ -1,48 +1,12 @@
-html {
-  font-family: "Poppins", sans-serif;
-  color: #285430;
-  background-image: linear-gradient(#E5D9B6, #A4BE7B);
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
-
-
-a { 
-  color: blue;
-}
-
-.nav-bar {
-  font-size: 20px;
-  justify-content: start;
-  display: flex;
-  gap: 48px;
-  margin-left: 50px;
-  margin-top: 25px;
-}
-
-.nav-link {
-  padding: 8px;
-}
-
-.nav-link:link,
-.nav-link:visited {
-  text-decoration: none;
-  color: #285430;
-}
-
-.nav-link:hover,
-.nav-link:active {
-  animation: underline_fade_in linear 1 normal forwards;
-}
-
 .contact-btn {
   font-weight: bold;
-  color: #153462!important;
+  color: #F1F6F5;
+  position: relative;
 }
 
 
 .form-container {
+  animation: fade_in 2s;
   position: relative;
   width: 100%;
   height: 90vh;
@@ -59,11 +23,11 @@ a {
 
 .linked-in {
   margin-right: 5%;
-  color: #106025f1;
+  color: #00337C;
 }
 
 .github {
-  color: #106025f1;
+  color: #00337C;
 }
 
 form {
@@ -71,7 +35,7 @@ form {
   background: #fff;
   display: flex;
   flex-direction: column;
-  padding: 2vw 4vw;
+  padding: 1vw 2vw;
   max-width: 600px;
   border-radius: 10px;
 }
@@ -93,12 +57,12 @@ form textarea {
 }
 
 input[type="submit"] {
-  background-color: #45a049a2;
+  background-color: #F2F7A1;
 }
 
 input[type="submit"]:hover,
 input[type="submit"]:active {
-  background-color: #45a049;
+  background-color: #F2F7A1;
   cursor: pointer;
 }
 
@@ -113,23 +77,10 @@ input[type="text"], input[type="email"], input[type="test"], textarea{
   height: 50vh;
   padding-right: 10%;
   padding-top: 20%;
+  animation: fade_in 3s;
 }
 
 .submit {
   font-family: "Poppins", sans-serif;
 }
 
-@keyframes underline_fade_in {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 1;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 50%,
-      #4ee0554f 50%
-    );
-  }
-}

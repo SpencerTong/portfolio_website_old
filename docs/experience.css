@@ -1,42 +1,12 @@
 html {
-  font-family: "Poppins", sans-serif;
-  color: #285430;
-  background-image: linear-gradient(#E5D9B6, #A4BE7B);
-  background-repeat: no-repeat;
-  height: 100%;
   background-attachment: fixed;
-}
-
-.nav-bar {
-  font-size: 20px;
-  justify-content: start;
-  display: flex;
-  gap: 48px;
-  margin-left: 50px;
-  margin-top: 25px;
-}
-
-.nav-link {
-  padding: 8px;
-}
-
-.nav-link:link,
-.nav-link:visited {
-  text-decoration: none;
-  color: #285430;
-}
-
-.nav-link:hover,
-.nav-link:active {
-  animation: underline_fade_in linear 1 normal forwards;;
 }
 
 .experience-btn {
   font-weight: bold;
-  color: #153462!important;
+  color: #F1F6F5;
+  position: relative;
 }
-
-
 
 .timeline {
   margin: 0 auto; 
@@ -44,6 +14,7 @@ html {
   padding: 25px;
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
+  animation: fade_in 2s;
 }
 
 
@@ -59,7 +30,7 @@ html {
 }
 
 .timeline_date {
-color: #087f5b;
+color: #F2F7A1;
 }
 
 .timeline_date_right {
@@ -69,7 +40,7 @@ color: #087f5b;
 
 .timeline_middle {
   position: relative;
-  background: #12b886;
+  background: #F2F7A1;
 }
 
 
@@ -80,15 +51,19 @@ color: #087f5b;
   transform: translateX(-50%);
   width: 15px;
   height: 15px;
-  background: #12b886;
+  background: #F2F7A1;
   border-radius: 10%;
 }
 
+.OIT {
+  animation: fade_in 2s;
+}
 
-.timeline_point_bottom {
+.IVI {
   top: initial;
   bottom: 0;
   border-radius: 10%;
+  animation: fade_in 2s;
 }
 
 .timeline_title {
@@ -102,19 +77,4 @@ color: #087f5b;
 
 .timeline_component_bottom {
   margin-bottom: 0;
-}
-
-@keyframes underline_fade_in {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 1;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 70%,
-      #4ee0554f 50%
-    );
-  }
 }

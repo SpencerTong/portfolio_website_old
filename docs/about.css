@@ -7,16 +7,6 @@
       #495057  #a5d8ff #fff #087f5b
 */
 
-html {
-  height:100%;
-  color: #285430;
-  background: linear-gradient(#E5D9B6, #A4BE7B);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  font-family: "Poppins", sans-serif;
-}
-
 .nav-bar {
   font-size: 20px;
   justify-content: start;
@@ -33,7 +23,6 @@ html {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
-  color: #285430;
 }
 
 .nav-link:hover,
@@ -55,43 +44,30 @@ html {
   margin-right: 200px;
   width: 30%;
   top: 0;
+  animation: fade_in 2s;
 }
 
 .portrait {
   border-radius: 20%;
-  border: 2px solid #E5D9B6;
+  border: 2px solid #F2F7A1;
   height: 53vh;
   width: 25vw;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
   margin-right: 2vw;
   flex: 0 0 auto;
   top: 0;
+  animation: fade_in 3s;
 }
 
 .about-btn {
   font-weight: bold;
-  color: #153462!important;
+  color: #F1F6F5;
+  position: relative;
 }
 
 .opener {
-  color: #5F8D4E;
   font-size: 24px;
   margin-bottom: 24px;
   flex: 0 0 auto;
   font-weight: 500;
-}
-
-@keyframes underline_fade_in {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 1;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 70%,
-      #4ee0554f 50%
-    );
-  }
 }
